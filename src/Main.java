@@ -256,7 +256,6 @@ class EmployeeManagement {
         return employees;
     }
 
-    // Các phương thức khác...
 }
 
 
@@ -272,7 +271,7 @@ public class Main {
         System.out.println("Enter employee information:");
         System.out.print("ID: ");
         int id = scanner.nextInt();
-        scanner.nextLine(); // Đọc bỏ dòng trống
+        scanner.nextLine();
         System.out.print("Full Name: ");
         String fullName = scanner.nextLine();
         System.out.print("Date of Birth: ");

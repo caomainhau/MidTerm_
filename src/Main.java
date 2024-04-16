@@ -169,10 +169,10 @@ public class Main {
         employeeManagement.showAllEmployees();
 
         // Write employees to file
-        EmployeeManagement.writeEmployeesToFile(employeeManagement.getEmployees(), "employees.txt");
+        EmployeeManagement.writeEmployeesToFile(employeeManagement.getEmployees(), "employees_output.txt");
 
         // Read employees from file
-        List<Employee> loadedEmployees = EmployeeManagement.readEmployeesFromFile("employees.txt");
+        List<Employee> loadedEmployees = EmployeeManagement.readEmployeesFromFile("employees_input.txt");
         System.out.println("\nLoaded Employees:");
         for (Employee employee : loadedEmployees) {
             employee.showInfo();
